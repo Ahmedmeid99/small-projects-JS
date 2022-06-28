@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: azure;
+}
+
+header {
+  background: #b6e0ff;
+  width: 100%;
+  height: 12rem;
+  border-bottom: 3rem solid #92d1ff;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0px 25px;
+  color: #034d83;
+  font-size: 3rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.margin-buttom {
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 56%;
+  }
+
+  .margin-buttom {
+    margin-bottom: 3rem;
+  }
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  gap: 3rem;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.box {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  border-bottom: 5px solid #50b5ff;
+}
+
+.title {
+  font-size: 2rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #999;
+}
+
+#root-box {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  background: rgba(0, 136, 255, 0.3490196078);
+}
+
+.root {
+  margin: auto;
+  text-align: center;
+  line-height: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #222;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: 1.5rem;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
